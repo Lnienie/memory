@@ -8,8 +8,8 @@
     "dependencies": ["."],
     "store": {
         "index": {
-            "dims": 1536,
-            "embed": "openai:text-embedding-3-small"
+            "dims": 1024,
+            "embed": "./src/memory_agent/embeddings.py:embeddings"
         }
     }
 }
